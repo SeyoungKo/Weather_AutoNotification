@@ -26,5 +26,5 @@ if __name__ == '__main__':
     s = Scraping()
     today_temper, compare_before, fine_dust, ultra_fine_dust = s.get_text()
 
-    # print(f'현재 기온은 {today_temper}이며 {compare_before}입니다.')
-    # print(f'현재 미세먼지는 {fine_dust}이며 초미세먼지는 {ultra_fine_dust}입니다.')
+    print(f'현재 기온은 {today_temper}이며 {compare_before}입니다.')
+    print(f'현재 미세먼지는 {fine_dust}이며 초미세먼지는 {ultra_fine_dust}입니다.')
